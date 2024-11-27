@@ -2,7 +2,9 @@ const Footer = () => {
     return (
     <>
         <footer>
-            <p>DISCLAIMER</p>
+            <div className="footer-container">
+                <p>DISCLAIMER</p>
+            </div>
         </footer>
     </>
     )
