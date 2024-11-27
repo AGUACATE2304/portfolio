@@ -1,0 +1,14 @@
+footer {
+    width: 100%;
+    border-top: 1px rgb(000, 000, 000, 0.1) solid;
+    position: fixed;
+    bottom: 0;
+    color: var(--font-color);
+    align-content: center;
+}
+
+footer p {
+    display: flex;
+    margin: 1.5% auto 1.5% ;
+    justify-content: center;
+}
