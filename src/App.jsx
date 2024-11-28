@@ -7,17 +7,16 @@ import {
   mountain_1, mountain_2 
 } from './assets/images/landingPage/index.js';
 
-import {
-  Header,
-  Footer
-} from './assets/components/index.js'
+import AppProvider from './assets/provider/AppProvider.jsx'
+
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Footer />
+      
+      <AppProvider />
+      
     </>
   )
 }
