@@ -42,7 +42,6 @@ const AppProvider = () => {
         </Routes>
         </Router>
         <Footer />
-        <h1>Provider</h1>
         </>
     )
 }

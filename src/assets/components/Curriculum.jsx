@@ -2,7 +2,7 @@ const Curriculum = () => {
 
     return (
         <>
-            <h1>Curriculum ??</h1>
+            <h1>Curriculumaa a??</h1>
         </>
     )
 }
