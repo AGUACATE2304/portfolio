@@ -28,6 +28,7 @@ const LandingPage = () => {
             <img src="src/assets/images/landingPage/background.png" className="parallax bg-img" data-speedx="0.01" />
             <img src="src/assets/images/landingPage/fog_7.png" className="parallax fog-7" data-speedx="0.27"/>
             <img src="src/assets/images/landingPage/mountain_10.png" className="parallax mountain-10" data-speedx="0.015" />
+            <img src="src/assets/images/landingPage/mountain_10.png" className="parallax mountain-10-1" data-speedx="0.015" />
             <img src="src/assets/images/landingPage/fog_6.png" className="parallax fog-6" data-speedx="0.025"/>
             <img src="src/assets/images/landingPage/mountain_9.png" className="parallax mountain-9" data-speedx="0.01"/>
             <img src="src/assets/images/landingPage/mountain_8.png" className="parallax mountain-8" data-speedx="0.024"/>
@@ -39,7 +40,7 @@ const LandingPage = () => {
             </div>
             <img src="src/assets/images/landingPage/mountain_6.png" className="parallax mountain-6" data-speedx="0.045"/>
             <img src="src/assets/images/landingPage/fog_4.png" className="parallax fog-4" data-speedx="0.135"/>
-            <img src="src/assets/images/landingPage/mountain_5.png" className="parallax mountain-5" data-speedx="0.08"/>
+            <img src="src/assets/images/landingPage/mountain_5.png" className="parallax mountain-5" data-speedx="0.048"/>
             <img src="src/assets/images/landingPage/fog_3.png" className="parallax fog-3" data-speedx="0.11"/>
             <img src="src/assets/images/landingPage/mountain_4.png" className="parallax mountain-4" data-speedx="0.059"/>
             <img src="src/assets/images/landingPage/mountain_3.png" className="parallax mountain-3" data-speedx="0.04"/>
