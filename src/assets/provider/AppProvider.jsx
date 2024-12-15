@@ -17,29 +17,29 @@ const AppProvider = () => {
         <>
         <Header />
         <Router>
-        <Routes>
-            <Route
-                path="/portfolio/"
-                element={<LandingPage />}
-            />
-            <Route 
-                path="/portfolio/home"
-                element={<LandingPage />}
-            />
-            <Route
-                path="/portfolio/contact"
-                element={<Contact />}
-            />
-            <Route
-                path="/portfolio/curriculum"
-                element={<Curriculum />}
-            />
-            <Route
-                path="/portfolio/projects"
-                element={<Projects />}
-            />
-            <Route path="/portfolio/404" element={<NotFound />} />
-        </Routes>
+            <Routes>
+                <Route
+                    path="/portfolio/"
+                    element={<LandingPage />}
+                />
+                <Route 
+                    path="/portfolio/home"
+                    element={<LandingPage />}
+                />
+                <Route
+                    path="/portfolio/contact"
+                    element={<Contact />}
+                />
+                <Route
+                    path="/portfolio/curriculum"
+                    element={<Curriculum />}
+                />
+                <Route
+                    path="/portfolio/projects"
+                    element={<Projects />}
+                />
+                <Route path="/portfolio/404" element={<NotFound />} />
+            </Routes>
         </Router>
         <Footer />
         </>

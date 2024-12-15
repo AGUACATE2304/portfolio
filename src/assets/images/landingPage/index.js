@@ -1,7 +1,6 @@
 // Importando las imágenes individuales
 import background from './background.png';
 import black_shadow from './black_shadow.png';
-import logo from './logo.png';
 import sun_rays from './sun_rays.png';
 
 // Importando las imágenes de 'fog'

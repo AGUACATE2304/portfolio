@@ -8,6 +8,8 @@
 
 .parallax {
     pointer-events: none;
+    transition: 0.45s cubic-bezier(.2,.49,.32,.99);
+    
 }
 
 .bg-img {
@@ -138,9 +140,9 @@
 .mountain-5 {
     position: absolute;
     z-index: 12;
-    width: 725px;
-    top: calc(50% + 280px);
-    left: calc(50% + 0px);
+    width: 715px;
+    top: calc(50% + 300px);
+    left: calc(50% + 20px);
 }
 
 .mountain-4 {
