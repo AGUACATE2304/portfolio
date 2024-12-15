@@ -1,0 +1,80 @@
+body {
+    color: var(--font-color);
+}
+
+.contactFormContainer {
+    margin: 8vh auto auto auto;
+    padding: 0%;
+    width: 80vh;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    animation: popUpContanctForm 2s cubic-bezier(0.5, 1, 0.89, 1) 0s 1 normal both;
+}
+
+.contactForm > h2 {
+    font-size: 800;
+    color: var(--font-color);
+}
+
+.contactForm > label {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.contactForm > label > input, textarea {
+    height: 5vh !important;
+    font-size:large;
+    padding: 1vh 2vh;
+    border-radius: 1%;
+    border: none;
+}
+.contactForm > label > input::placeholder, textarea::placeholder {
+    font-size: large;
+}
+
+.contactForm > label > textarea::placeholder {
+    font-size: larger;
+}
+
+.contactForm > label > textarea {
+    resize: vertical;
+    height: 15vh !important;
+}
+
+.contactForm > button {
+    margin-top: 2vh;
+    background-color: var(--send-form-button) !important;
+    width: 30%;
+    height: 5vh;
+
+    cursor: pointer;
+    border: 1px solid var(--send-form-button-border)!important;
+    border-radius: 2%;
+    font-size: larger;
+    text-transform: uppercase;
+    color: var(--font-color);
+    
+}
+
+.contactForm > button:hover {
+    margin-top: 2vh;
+    background-color: var(--send-form-button-border) !important;
+    width: 30%;
+    height: 5vh;
+
+    cursor: pointer;
+    border: 1px solid var(--send-form-button)!important;
+    border-radius: 2%;
+    animation: shakeContantFormSendButton 2s ease 0s 1 normal forwards;
+}
+
+.wide-swal {
+    max-width: 600px;
+    width: 90%;
+}
