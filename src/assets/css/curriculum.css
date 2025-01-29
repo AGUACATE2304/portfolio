@@ -1,0 +1,42 @@
+
+.curriculum-container {
+    margin: 10% auto;
+    display: flex;
+    width: 80%;
+    height: 100%;
+}
+
+.left-container {
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0.096);
+}
+
+.right-container {
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.24);
+}  
+
+.left-container-tittleHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socialMedia-container {
+    margin-top: 3.5vh;
+    background-color: rgba(139, 42, 230, 0.151);
+    display: flex;
+    justify-content: center;
+}
+.socialMedia-container > a {
+    color: var(--font-color);
+    padding: 1vh;
+}
+
+.github-href {
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.profile-data-column {
+    margin: 5vh;
+}

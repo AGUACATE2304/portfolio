@@ -2,7 +2,10 @@ const Projects = () => {
 
     return (
         <>
-            <h1>Projectes ??</h1>
+        <div style={{marginTop:'15%', marginLeft:'45%'}}>
+            <h1>In Progress</h1>
+        </div>
+            
         </>
     )
 }

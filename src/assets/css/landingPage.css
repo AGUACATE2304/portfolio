@@ -8,8 +8,6 @@
 
 .parallax {
     pointer-events: none;
-    transition: 0.45s cubic-bezier(.2,.49,.32,.99);
-    
 }
 
 .bg-img {
@@ -60,8 +58,8 @@
 .fog-3 {
     position: absolute;
     z-index: 13;
-    width: 400px;
-    top: calc(50% + 110px);
+    width: 600px;
+    top: calc(50% + 300px);
     left: calc(50% - 15px);
     transform: translate(-50%, -50%);
 }
@@ -141,15 +139,15 @@
     position: absolute;
     z-index: 12;
     width: 715px;
-    top: calc(50% + 300px);
-    left: calc(50% + 20px);
+    top: calc(50% + 280px);
+    left: calc(50% + 100px);
 }
 
 .mountain-4 {
     position: absolute;
     z-index: 14;
-    width: 800px;
-    top: calc(50% + 330px);
+    width: 850px;
+    top: calc(50% + 230px);
     left: calc(50% + 351.5px);
     transform: translate(-50%, -50%);
 }
@@ -203,7 +201,7 @@
     left:50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: var(--font-color);
+    color: var(--landing-page-color);
     width: 100%;
 }
 
