@@ -1,5 +1,12 @@
 import { useEffect } from "react";
 import gsap from "gsap"; // Import GSAP if using it for animations
+import {
+    background,
+    black_shadow,
+    sun_rays,
+    fog_1, fog_2, fog_3, fog_4, fog_5, fog_6, fog_7,
+    mountain_1, mountain_2, mountain_3, mountain_4, mountain_5, mountain_6, mountain_7, mountain_8, mountain_9, mountain_10
+} from "../images/landingPage/index.js"
 
 const LandingPage = () => {
     useEffect(() => {
@@ -55,38 +62,37 @@ const LandingPage = () => {
             timeline.kill(); // Detiene cualquier animación activa si el componente se desmonta
         };
     }, []); // Solo al cargar el componente
-    
 
 
     return (
         <div className="LandingPage-Container">
             <div className="vignette"></div>
             
-            <img src="src\assets\images\landingPage\background.png" className="parallax bg-img" data-speedx="0.3" data-speedy="0.38" data-speedz="0" data-rotation="0" data-distance="-20"/>
-            <img src="src/assets/images/landingPage/fog_7.png" className="parallax fog-7" data-speedx="0.27" data-speedy="0.32" data-speedz="0" data-rotation="0" data-distance="850"/>
-            <img src="src/assets/images/landingPage/mountain_10.png" className="parallax mountain-10" data-speedx="0.195" data-speedy="0.305" data-speedz="0" data-rotation="0" data-distance="1100"/>
-            <img src="src/assets/images/landingPage/mountain_10.png" className="parallax mountain-10-1" data-speedx="0.25" data-speedy="0.28" data-speedz="0" data-rotation="0" data-distance="1100"/>
-            <img src="src/assets/images/landingPage/fog_6.png" className="parallax fog-6" data-speedx="0.25" data-speedy="0.28" data-speedz="0" data-rotation="0" data-distance="1400"/>
-            <img src="src/assets/images/landingPage/mountain_9.png" className="parallax mountain-9" data-speedx="0.125" data-speedy="0.155" data-speedz="0.15" data-rotation="0.02" data-distance="1700"/>
-            <img src="src/assets/images/landingPage/mountain_8.png" className="parallax mountain-8" data-speedx="0.1" data-speedy="0.11" data-speedz="0" data-rotation="0.02" data-distance="1800"/>
-            <img src="src/assets/images/landingPage/fog_5.png" className="parallax fog-5" data-speedx="0.16" data-speedy="0.105" data-speedz="0" data-rotation="0" data-distance="1900"/>
-            <img src="src/assets/images/landingPage/mountain_7.png" className="parallax mountain-7" data-speedx="0.1" data-speedy="0.11" data-speedz="0" data-rotation="0.09" data-distance="2000"/>
+            <img src={background} className="parallax bg-img" data-speedx="0.3" data-speedy="0.38" data-speedz="0" data-rotation="0" data-distance="-20"/>
+            <img src={fog_7} className="parallax fog-7" data-speedx="0.27" data-speedy="0.32" data-speedz="0" data-rotation="0" data-distance="850"/>
+            <img src={mountain_10} className="parallax mountain-10" data-speedx="0.195" data-speedy="0.305" data-speedz="0" data-rotation="0" data-distance="1100"/>
+            <img src={mountain_10} className="parallax mountain-10-1" data-speedx="0.25" data-speedy="0.28" data-speedz="0" data-rotation="0" data-distance="1100"/>
+            <img src={fog_6} className="parallax fog-6" data-speedx="0.25" data-speedy="0.28" data-speedz="0" data-rotation="0" data-distance="1400"/>
+            <img src={mountain_9} className="parallax mountain-9" data-speedx="0.125" data-speedy="0.155" data-speedz="0.15" data-rotation="0.02" data-distance="1700"/>
+            <img src={mountain_8} className="parallax mountain-8" data-speedx="0.1" data-speedy="0.11" data-speedz="0" data-rotation="0.02" data-distance="1800"/>
+            <img src={fog_5} className="parallax fog-5" data-speedx="0.16" data-speedy="0.105" data-speedz="0" data-rotation="0" data-distance="1900"/>
+            <img src={mountain_7} className="parallax mountain-7" data-speedx="0.1" data-speedy="0.11" data-speedz="0" data-rotation="0.09" data-distance="2000"/>
             <div className="text parallax" data-speedx="0.07" data-speedy="0.07" data-rotation="0.11" data-distance="0">
                 <h2>Front-End Developer</h2>
                 <h1>ALAN CASTILLO ESQUINA</h1>
             </div>
-            <img src="src/assets/images/landingPage/mountain_6.png" className="parallax mountain-6" data-speedx="0.065" data-speedy="0.038" data-speedz="0.05" data-rotation="0.12" data-distance="2300"/>
-            <img src="src/assets/images/landingPage/fog_4.png" className="parallax fog-4" data-speedx="0.135" data-speedy="0.32" data-speedz="0" data-rotation="0" data-distance="2400"/>
-            <img src="src/assets/images/landingPage/mountain_5.png" className="parallax mountain-5" data-speedx="0.02" data-speedy="0.035" data-speedz="0.13" data-rotation="0.1" data-distance="2550"/>
-            <img src="src/assets/images/landingPage/fog_3.png" className="parallax fog-3" data-speedx="0.11" data-speedy="0.018" data-speedz="0" data-rotation="0" data-distance="2800"/>
-            <img src="src/assets/images/landingPage/mountain_4.png" className="parallax mountain-4" data-speedx="0.039" data-speedy="0.024" data-speedz="0.35" data-rotation="0.14" data-distance="3200"/>
-            <img src="src/assets/images/landingPage/mountain_3.png" className="parallax mountain-3" data-speedx="0.04" data-speedy="0.018" data-speedz="0.32" data-rotation="0.05" data-distance="3400"/>
-            <img src="src/assets/images/landingPage/fog_2.png" className="parallax fog-2" data-speedx="0.15" data-speedy="0.0115" data-speedz="0" data-distance="3600"/>
-            <img src="src/assets/images/landingPage/mountain_2.png" className="parallax mountain-2" data-speedx="0.0235" data-speedy="0.013" data-speedz="0.42" data-rotation="0.15" data-distance="3800"/>
-            <img src="src/assets/images/landingPage/mountain_1.png" className="parallax mountain-1" data-speedx="0.027" data-speedy="0.018" data-speedz="0.53" data-rotation="0.2" data-distance="4000"/>
-            <img src="src/assets/images/landingPage/sun_rays.png" className="parallax sun-rays"/>
-            <img src="src/assets/images/landingPage/black_shadow.png" className="parallax black-shadow"/>
-            <img src="src/assets/images/landingPage/fog_1.png" className="parallax fog-1" data-speedx="0.12" data-speedy="0.01" data-distance="4200"/>
+            <img src={mountain_6} className="parallax mountain-6" data-speedx="0.065" data-speedy="0.038" data-speedz="0.05" data-rotation="0.12" data-distance="2300"/>
+            <img src={fog_4} className="parallax fog-4" data-speedx="0.135" data-speedy="0.32" data-speedz="0" data-rotation="0" data-distance="2400"/>
+            <img src={mountain_5} className="parallax mountain-5" data-speedx="0.02" data-speedy="0.035" data-speedz="0.13" data-rotation="0.1" data-distance="2550"/>
+            <img src={fog_3} className="parallax fog-3" data-speedx="0.11" data-speedy="0.018" data-speedz="0" data-rotation="0" data-distance="2800"/>
+            <img src={mountain_4} className="parallax mountain-4" data-speedx="0.039" data-speedy="0.024" data-speedz="0.35" data-rotation="0.14" data-distance="3200"/>
+            <img src={mountain_3} className="parallax mountain-3" data-speedx="0.04" data-speedy="0.018" data-speedz="0.32" data-rotation="0.05" data-distance="3400"/>
+            <img src={fog_2} className="parallax fog-2" data-speedx="0.15" data-speedy="0.0115" data-speedz="0" data-distance="3600"/>
+            <img src={mountain_2} className="parallax mountain-2" data-speedx="0.0235" data-speedy="0.013" data-speedz="0.42" data-rotation="0.15" data-distance="3800"/>
+            <img src={mountain_1} className="parallax mountain-1" data-speedx="0.027" data-speedy="0.018" data-speedz="0.53" data-rotation="0.2" data-distance="4000"/>
+            <img src={sun_rays} className="parallax sun-rays"/>
+            <img src={black_shadow} className="parallax black-shadow"/>
+            <img src={fog_1} className="parallax fog-1" data-speedx="0.12" data-speedy="0.01" data-distance="4200"/>
         </div>
     );
 };

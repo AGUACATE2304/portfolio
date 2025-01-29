@@ -28,7 +28,6 @@ import mountain_10 from './mountain_10.png';
 export {
   background,
   black_shadow,
-  logo,
   sun_rays,
   fog_1, fog_2, fog_3, fog_4, fog_5, fog_6, fog_7,
   mountain_1, mountain_2, mountain_3, mountain_4, mountain_5, mountain_6, mountain_7, mountain_8, mountain_9, mountain_10
