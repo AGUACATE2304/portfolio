@@ -15,7 +15,7 @@ const AppProvider = () => {
 
     return (
         <>
-        <Header />
+        {/* <Header /> */}
         <Router>
             <Routes>
                 <Route
