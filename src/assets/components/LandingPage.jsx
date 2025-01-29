@@ -61,7 +61,8 @@ const LandingPage = () => {
     return (
         <div className="LandingPage-Container">
             <div className="vignette"></div>
-            <img src="src/assets/images/landingPage/background.png" className="parallax bg-img" data-speedx="0.3" data-speedy="0.38" data-speedz="0" data-rotation="0" data-distance="-20"/>
+            
+            <img src="src\assets\images\landingPage\background.png" className="parallax bg-img" data-speedx="0.3" data-speedy="0.38" data-speedz="0" data-rotation="0" data-distance="-20"/>
             <img src="src/assets/images/landingPage/fog_7.png" className="parallax fog-7" data-speedx="0.27" data-speedy="0.32" data-speedz="0" data-rotation="0" data-distance="850"/>
             <img src="src/assets/images/landingPage/mountain_10.png" className="parallax mountain-10" data-speedx="0.195" data-speedy="0.305" data-speedz="0" data-rotation="0" data-distance="1100"/>
             <img src="src/assets/images/landingPage/mountain_10.png" className="parallax mountain-10-1" data-speedx="0.25" data-speedy="0.28" data-speedz="0" data-rotation="0" data-distance="1100"/>
