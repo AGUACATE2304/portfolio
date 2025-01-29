@@ -1,0 +1,8 @@
+/* COLORS */
+
+:root {
+    --landing-page-color: rgba(255, 255, 255, 0.904);
+    --font-color: #b9b9b9;
+    --send-form-button: rgb(83, 129, 49);
+    --send-form-button-border: rgb(63, 99, 38);
+}
